@@ -182,12 +182,12 @@ This is a living document. Contributions welcome!
 
 - [x] README with architecture overview
 - [x] Table of contents with all chapters
-- [ ] Chapter 1: LLM Fundamentals
-- [ ] Chapter 2: Prompt Engineering at Scale
-- [ ] Chapter 3: RAG Architecture
-- [ ] Chapter 4: Vector Databases
-- [ ] Chapter 5: LLM Gateway & Routing
-- [ ] Chapter 6: Agent Architecture
+- [x] Chapter 1: LLM Fundamentals
+- [x] Chapter 2: Prompt Engineering at Scale
+- [x] Chapter 3: RAG Architecture
+- [x] Chapter 4: Vector Databases
+- [x] Chapter 5: LLM Gateway & Routing
+- [x] Chapter 6: Agent Architecture
 - [ ] Chapter 7: Evaluation & Testing
 - [ ] Chapter 8: Guardrails & Safety
 - [ ] Chapter 9: Cost Optimization
