@@ -188,12 +188,12 @@ This is a living document. Contributions welcome!
 - [x] Chapter 4: Vector Databases
 - [x] Chapter 5: LLM Gateway & Routing
 - [x] Chapter 6: Agent Architecture
-- [ ] Chapter 7: Evaluation & Testing
-- [ ] Chapter 8: Guardrails & Safety
-- [ ] Chapter 9: Cost Optimization
-- [ ] Chapter 10: Observability
-- [ ] Chapter 11: Fine-Tuning vs Prompting
-- [ ] Chapter 12: Scaling Patterns
+- [x] Chapter 7: Evaluation & Testing
+- [x] Chapter 8: Guardrails & Safety
+- [x] Chapter 9: Cost Optimization
+- [x] Chapter 10: Observability
+- [x] Chapter 11: Fine-Tuning vs Prompting
+- [x] Chapter 12: Scaling Patterns
 - [ ] Practice Problems (6 total)
 - [ ] Anki flashcard deck
 
