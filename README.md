@@ -194,7 +194,7 @@ This is a living document. Contributions welcome!
 - [x] Chapter 10: Observability
 - [x] Chapter 11: Fine-Tuning vs Prompting
 - [x] Chapter 12: Scaling Patterns
-- [ ] Practice Problems (6 total)
+- [x] Practice Problems (6 total)
 - [ ] Anki flashcard deck
 
 ---
