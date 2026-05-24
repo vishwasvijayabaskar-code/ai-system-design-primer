@@ -1,0 +1,35 @@
+name: Check Links
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check internal links
+        run: |
+          echo "Checking for broken internal links..."
+          errors=0
+          for file in chapters/*.md chapters/problems/*.md README.md; do
+            if [ -f "$file" ]; then
+              # Check markdown links to local files
+              grep -oP '\[.*?\]\(((?!http)[^)]+)\)' "$file" | grep -oP '\(([^)]+)\)' | tr -d '()' | while read -r link; do
+                dir=$(dirname "$file")
+                target="$dir/$link"
+                if [ ! -f "$target" ] && [ ! -f "$link" ]; then
+                  echo "BROKEN: $file -> $link"
+                  errors=$((errors + 1))
+                fi
+              done
+            fi
+          done
+          if [ $errors -gt 0 ]; then
+            echo "Found $errors broken links"
+            exit 1
+          fi
+          echo "All internal links OK"
