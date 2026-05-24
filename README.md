@@ -199,6 +199,14 @@ This is a living document. Contributions welcome!
 
 ---
 
+## If This Helped You
+
+Give it a star. It helps others find this resource, and it's the best way to tell me "keep going."
+
+[![Star this repo](https://img.shields.io/github/stars/vishwasvijayabaskar-code/ai-system-design-primer?style=social)](https://github.com/vishwasvijayabaskar-code/ai-system-design-primer)
+
+---
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=vishwasvijayabaskar-code/ai-system-design-primer&type=Date)](https://star-history.com/#vishwasvijayabaskar-code/ai-system-design-primer&Date)
